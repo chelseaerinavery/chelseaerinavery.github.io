@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import chelseaLogo from './chelseaLogo.png'
+import instagramLogo from './instagramLogo.png'
 import './App.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <img src={chelseaLogo} className="App-chelseaLogo" alt="chelseaLogo" />
         <p>
-          Welcome to Chelsea Avery's landing page. 
+          Welcome to my professional, slightly personal landing page. 
         </p>
         <a
           className="App-link"
@@ -17,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          IG
+          <img height="80" src="/static/media/instagramLogo.06c041df.png" class="App-instagramLogo" alt="instagramLogo" />
         </a>
       </header>
     </div>
