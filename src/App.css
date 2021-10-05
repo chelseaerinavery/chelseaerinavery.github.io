@@ -1,6 +1,11 @@
+footer {
+  margin: 20px;
+}
+
 .App {
   text-align: center;
-  font-family: 'Kaisei Tokumin', serif;
+  font-family: 'Homemade Apple', cursive;
+  /* 'Stick No Bills', sans-serif; */
   /* font-family: 'Oswald', sans-serif; */
 }
 
@@ -16,14 +21,13 @@
 }
 
 .App-header {
-  background-color: #963e1cd9;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color:honeydew;
+  position:relative;
 }
 
 .App-link {
@@ -37,4 +41,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#myname {
+  color:#483d8b;
+  position: absolute;
+  bottom: -30px;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-family: monospace;
+  font-size: large;
+}
+
+.Link {
+ cursor: pointer;
+}
+
+.Link:hover {
+  color: #483d8b
 }
