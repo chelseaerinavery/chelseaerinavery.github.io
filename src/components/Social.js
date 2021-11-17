@@ -1,8 +1,8 @@
-import instagramLogo from '../instagramLogo.png'
-import facebookLogo from '../facebookLogo.png'
-import tiktokLogo from '../tiktokLogo.png'
-import githubLogo from '../githubLogo.jpeg'
-import linkedinLogo from '../linkedinLogo.png'
+import instagramLogo from '../assets/instagramLogo.png'
+import facebookLogo from '../assets/facebookLogo.png'
+import tiktokLogo from '../assets/tiktokLogo.png'
+import githubLogo from '../assets/githubLogo.jpeg'
+import linkedinLogo from '../assets/linkedinLogo.png'
 import '../App.css';
 
 function Social() {
@@ -14,7 +14,7 @@ function Social() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img height="80" src={instagramLogo} class="App-instagramLogo" alt="my instagram" />
+          <img height="80" src={instagramLogo} className="App-instagramLogo" alt="my instagram" />
         </a>
         <a
           className="App-link"
@@ -22,7 +22,7 @@ function Social() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img height="80" src={facebookLogo} class="App-facebookLogo" alt="my facebook" />
+          <img height="80" src={facebookLogo} className="App-facebookLogo" alt="my facebook" />
         </a>
         <a
           className="App-link"
@@ -30,7 +30,7 @@ function Social() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img height="80" src={tiktokLogo} class="App-tiktokLogo" alt="my tiktok" />
+          <img height="80" src={tiktokLogo} className="App-tiktokLogo" alt="my tiktok" />
         </a>
         <a
           className="App-link"
@@ -38,7 +38,7 @@ function Social() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img height="80" src={githubLogo} class="App-github" alt="my github" />
+          <img height="80" src={githubLogo} className="App-github" alt="my github" />
         </a>
         <a
           className="App-link"
@@ -46,7 +46,7 @@ function Social() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img height="80" src={linkedinLogo} class="App-linkedin" alt="my linkedin" />
+          <img height="80" src={linkedinLogo} className="App-linkedin" alt="my linkedin" />
           </a>
     </div>
   );

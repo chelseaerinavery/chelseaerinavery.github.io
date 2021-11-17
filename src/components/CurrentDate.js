@@ -3,7 +3,7 @@ import '../App.css';
 function CurrentDate() {
   return (
     <div>
-       <p>Copyright {new Date().getFullYear()} Chelsea Avery</p>
+      <p>Copyright {new Date().getFullYear()} Chelsea Avery</p>
     </div>
   );
 }

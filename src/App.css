@@ -2,9 +2,13 @@ footer {
   margin: 20px;
 }
 
+.Gallery-card > img {
+  display: block;
+}
+
 .App {
   text-align: center;
-  font-family: 'Homemade Apple', cursive;
+  font-family: "Homemade Apple", cursive;
   /* 'Stick No Bills', sans-serif; */
   /* font-family: 'Oswald', sans-serif; */
 }
@@ -27,7 +31,7 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  position:relative;
+  position: relative;
 }
 
 .App-link {
@@ -44,9 +48,14 @@ footer {
 }
 
 #myname {
-  color:#483d8b;
+  color: #483d8b;
   position: absolute;
   bottom: -30px;
+}
+
+#Coming-soon {
+  color: #483d8b;
+  margin: 20%;
 }
 
 .Navigation {
@@ -58,9 +67,23 @@ footer {
 }
 
 .Link {
- cursor: pointer;
+  cursor: pointer;
 }
 
 .Link:hover {
-  color: #483d8b
+  color: #483d8b;
+}
+
+.Gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Gallery-card {
+  padding: 20px;
+  margin: 20px;
+  background-color: pink;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #c192c1;
 }
