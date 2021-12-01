@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.faf86fc1.chunk.css",
+    "main.js": "/static/js/main.861c85d7.chunk.js",
+    "main.js.map": "/static/js/main.861c85d7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ddd1c5bb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ddd1c5bb.js.map",
+    "static/js/2.3c14c861.chunk.js": "/static/js/2.3c14c861.chunk.js",
+    "static/js/2.3c14c861.chunk.js.map": "/static/js/2.3c14c861.chunk.js.map",
+    "static/js/3.74050d98.chunk.js": "/static/js/3.74050d98.chunk.js",
+    "static/js/3.74050d98.chunk.js.map": "/static/js/3.74050d98.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.faf86fc1.chunk.css.map": "/static/css/main.faf86fc1.chunk.css.map",
+    "static/js/2.3c14c861.chunk.js.LICENSE.txt": "/static/js/2.3c14c861.chunk.js.LICENSE.txt",
+    "static/media/chelseaLogo.3af4306a.png": "/static/media/chelseaLogo.3af4306a.png",
+    "static/media/facebookLogo.e998525d.png": "/static/media/facebookLogo.e998525d.png",
+    "static/media/gallery1.e0c8e863.jpeg": "/static/media/gallery1.e0c8e863.jpeg",
+    "static/media/gallery10.4d51ad19.jpeg": "/static/media/gallery10.4d51ad19.jpeg",
+    "static/media/gallery2.534af9ba.jpeg": "/static/media/gallery2.534af9ba.jpeg",
+    "static/media/gallery3.8e0565ab.jpg": "/static/media/gallery3.8e0565ab.jpg",
+    "static/media/gallery4.67af2a81.png": "/static/media/gallery4.67af2a81.png",
+    "static/media/gallery5.f4cad149.jpg": "/static/media/gallery5.f4cad149.jpg",
+    "static/media/gallery6.ddc4c993.png": "/static/media/gallery6.ddc4c993.png",
+    "static/media/gallery7.37ef4b72.jpg": "/static/media/gallery7.37ef4b72.jpg",
+    "static/media/gallery8.33182e81.jpg": "/static/media/gallery8.33182e81.jpg",
+    "static/media/gallery9.0dc4acb3.jpeg": "/static/media/gallery9.0dc4acb3.jpeg",
+    "static/media/githubLogo.665f0237.jpeg": "/static/media/githubLogo.665f0237.jpeg",
+    "static/media/instagramLogo.06c041df.png": "/static/media/instagramLogo.06c041df.png",
+    "static/media/linkedinLogo.fcf39e2b.png": "/static/media/linkedinLogo.fcf39e2b.png",
+    "static/media/slpcv.ca7f7f67.pdf": "/static/media/slpcv.ca7f7f67.pdf",
+    "static/media/tiktokLogo.71367098.png": "/static/media/tiktokLogo.71367098.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddd1c5bb.js",
+    "static/js/2.3c14c861.chunk.js",
+    "static/css/main.faf86fc1.chunk.css",
+    "static/js/main.861c85d7.chunk.js"
+  ]
+}
