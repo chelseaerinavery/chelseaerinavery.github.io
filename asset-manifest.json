@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.24f83212.chunk.css",
-    "main.js": "/static/js/main.9f2c781b.chunk.js",
-    "main.js.map": "/static/js/main.9f2c781b.chunk.js.map",
+    "main.css": "/static/css/main.db3110eb.chunk.css",
+    "main.js": "/static/js/main.0533ba8b.chunk.js",
+    "main.js.map": "/static/js/main.0533ba8b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ddd1c5bb.js",
     "runtime-main.js.map": "/static/js/runtime-main.ddd1c5bb.js.map",
     "static/js/2.3c14c861.chunk.js": "/static/js/2.3c14c861.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.74050d98.chunk.js": "/static/js/3.74050d98.chunk.js",
     "static/js/3.74050d98.chunk.js.map": "/static/js/3.74050d98.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.24f83212.chunk.css.map": "/static/css/main.24f83212.chunk.css.map",
+    "static/css/main.db3110eb.chunk.css.map": "/static/css/main.db3110eb.chunk.css.map",
     "static/js/2.3c14c861.chunk.js.LICENSE.txt": "/static/js/2.3c14c861.chunk.js.LICENSE.txt",
     "static/media/Calculator.6e37cbba.png": "/static/media/Calculator.6e37cbba.png",
     "static/media/chelseaLogo.c779ff8d.png": "/static/media/chelseaLogo.c779ff8d.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.ddd1c5bb.js",
     "static/js/2.3c14c861.chunk.js",
-    "static/css/main.24f83212.chunk.css",
-    "static/js/main.9f2c781b.chunk.js"
+    "static/css/main.db3110eb.chunk.css",
+    "static/js/main.0533ba8b.chunk.js"
   ]
 }
