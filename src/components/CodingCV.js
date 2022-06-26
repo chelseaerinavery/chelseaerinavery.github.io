@@ -5,7 +5,7 @@ function CodingCV() {
     <div className="resume-card">
       <div className="resume">
         <h1>Self-Taught Full Stack Developer</h1>
-        <h3>Please contact me for resume at chelsea.erin.avery@gmail.com</h3>
+        <h3>Please contact me for resume at chelseaavery.js@gmail.com</h3>
       </div>
     </div>
   );
