@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a5f05267.chunk.css",
-    "main.js": "/static/js/main.29bf61bf.chunk.js",
-    "main.js.map": "/static/js/main.29bf61bf.chunk.js.map",
+    "main.js": "/static/js/main.97d557b7.chunk.js",
+    "main.js.map": "/static/js/main.97d557b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ddd1c5bb.js",
     "runtime-main.js.map": "/static/js/runtime-main.ddd1c5bb.js.map",
     "static/js/2.3c14c861.chunk.js": "/static/js/2.3c14c861.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/calculator.3bcbb415.webp": "/static/media/calculator.3bcbb415.webp",
     "static/media/calculator.a6e53162.png": "/static/media/calculator.a6e53162.png",
     "static/media/chelseaLogo.c779ff8d.png": "/static/media/chelseaLogo.c779ff8d.png",
+    "static/media/fmv.cbe85e89.jpg": "/static/media/fmv.cbe85e89.jpg",
     "static/media/headshot.c70b9998.webp": "/static/media/headshot.c70b9998.webp",
     "static/media/holyghost.96528e26.png": "/static/media/holyghost.96528e26.png",
     "static/media/holyghost.a0badcbf.webp": "/static/media/holyghost.a0badcbf.webp",
@@ -42,6 +43,6 @@
     "static/js/runtime-main.ddd1c5bb.js",
     "static/js/2.3c14c861.chunk.js",
     "static/css/main.a5f05267.chunk.css",
-    "static/js/main.29bf61bf.chunk.js"
+    "static/js/main.97d557b7.chunk.js"
   ]
 }
