@@ -22,9 +22,9 @@ function About() {
           <a href="https://www.colorado.edu/atlas/" alt="CU Boulder Atlas Institute">
             CU Boulder ATLAS Institute
           </a>
-          : Technology, Arts, & Media (TAM) program. I really enjoyed learning about the foundations
-          of design and web development in this program and am very excited to have returned to this
-          realm again now.
+          : Creative Technology & Design (CTD) program. I greatly enjoyed my time learning about
+          design principles, computer science, and web development in this program and am very
+          excited to have returned to this realm again now.
         </p>
 
         <p>
