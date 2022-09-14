@@ -3,23 +3,28 @@ import Headshot from '../assets/Bio/headshot.webp';
 
 function About() {
   return (
-    <div className="bio">
-      <div className="bio-card">
+    <div>
+      <div className="headshot">
         <img src={Headshot} alt="My Headshot" />
+      </div>
+      <div className="bio-card">
         <p>
-          My name is Chelsea Avery. I was born in Boulder, CO and have lived in Colorado most of my
-          life. I have also lived in Hawaii, Paris, Chicago, and Seattle. I left Colorado for grad
-          school in Chicago from 2017-2019 and then lived in Seattle before returning to Colorado in
-          2020. During that time, my career focus revolved around Speech-Language Pathology
-          specializing in neurorehabilitation.
+          {/* My name is Chelsea Avery and you will find me pictured here with one of many loves of my
+          life: Sailor Jupiter the samoyed. */}
+          I am a self-starting, full-stack developer hailing fromBoulder, CO. I grew up in Boulder
+          and have since returned after many years in Denver, Chicago, and Seattle wherein I
+          completed graduate school at Northwestern University and worked as a Speech-Language
+          Pathologist specializing in neurorehabilitation.
         </p>
         <p>
-          Growing up and going to school in Boulder, CO - a place that is all about progressive
-          movements, art, and the outdoors - has led to me becoming a very versatile person. I
-          studied the Humanities with emphases in Film and French, and received a Technology, Arts,
-          & Media (TAM) certificate from the University of Colorado Boulder. I really enjoyed
-          learning about the foundations of design and web development in the TAM program and am
-          very excited to be returning to that realm again now.
+          I have studied and worked in several fields, but my favorite work has always been during
+          my Digital Design and Media certification from the{' '}
+          <a href="https://www.colorado.edu/atlas/" alt="CU Boulder Atlas Institute">
+            CU Boulder ATLAS Institute
+          </a>
+          : Technology, Arts, & Media (TAM) program. I really enjoyed learning about the foundations
+          of design and web development in this program and am very excited to have returned to this
+          realm again now.
         </p>
 
         <p>
@@ -30,8 +35,13 @@ function About() {
           extroversion, etc. This can also be explained by my favorite color, Indigo, which you can
           never really tell is Blue or Purple.
         </p>
+        <p>
+          If you would like to say hello or peek at my resume, send me a message at{' '}
+          <a href="mailto:chelseaavery.js@gmail.com" alt="my e-mail">
+            chelseaavery.js@gmail.com
+          </a>
+        </p>
       </div>
-      {/* <h1>Aside from coding, I love:</h1> */}
     </div>
   );
 }
