@@ -11,7 +11,7 @@ function About() {
         <p>
           {/* My name is Chelsea Avery and you will find me pictured here with one of many loves of my
           life: Sailor Jupiter the samoyed. */}
-          I am a self-starting, full-stack developer hailing fromBoulder, CO. I grew up in Boulder
+          I am a self-starting, full-stack developer hailing from Boulder, CO. I grew up in Boulder
           and have since returned after many years in Denver, Chicago, and Seattle wherein I
           completed graduate school at Northwestern University and worked as a Speech-Language
           Pathologist specializing in neurorehabilitation.
