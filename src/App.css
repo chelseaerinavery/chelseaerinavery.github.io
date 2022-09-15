@@ -53,8 +53,6 @@
 .headshot img {
     max-width: 100%;
     height: auto;
-    position: inherit;
-    z-index: -1;
 }
 
 .bio-card p {
@@ -73,6 +71,7 @@
   opacity: 89%;
   padding: 30px;
   border-radius:5px;
+  z-index: 1;
 }
 
 .resume {
