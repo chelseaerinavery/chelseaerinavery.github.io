@@ -14,7 +14,8 @@ function About() {
           I am a self-starting, full-stack developer hailing from Boulder, CO. I grew up in Boulder
           and have since returned after many years in Denver, Chicago, and Seattle wherein I
           completed graduate school at Northwestern University and worked as a Speech-Language
-          Pathologist specializing in neurorehabilitation.
+          Pathologist specializing in neurorehabilitation. See me pictured here with my beloved
+          floof - Sailor Jupiter the samoyed.
         </p>
         <p>
           I have studied and worked in several fields, but my favorite work has always been during
