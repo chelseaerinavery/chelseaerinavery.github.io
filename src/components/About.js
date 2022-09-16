@@ -4,7 +4,7 @@ import Headshot from '../assets/Bio/headshot.webp';
 function About() {
   return (
     <div>
-      <div className="headshot">
+      <div className="bio-background">
         <img src={Headshot} alt="My Headshot" />
       </div>
       <div className="bio-card">
