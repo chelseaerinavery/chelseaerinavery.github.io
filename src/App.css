@@ -1,10 +1,4 @@
-html, body, #root, #app, #app>div {
-  height: 100%;
-  width:100%;
-}
-
 .App {
-  text-align: center;
   font-family: 'Raleway', sans-serif;
   /* 'Stick No Bills', sans-serif; */
   /* font-family: 'Oswald', sans-serif; */
@@ -26,6 +20,7 @@ html, body, #root, #app, #app>div {
 
 .Socials {
   margin: 15px;
+  text-align: center;
 }
 
 .App-link {
@@ -38,7 +33,7 @@ html, body, #root, #app, #app>div {
 }
 
 .App-link img {
-  height: 6vh;
+  height: 9vw;
 }
 
 .bio-background img {
@@ -101,7 +96,8 @@ html, body, #root, #app, #app>div {
 #myname {
   color: 
   #274001;
-  font-size: 8vh;
+  font-size: 8vw;
+  text-align: center;
   font-family: 'Rampart One', cursive;
   margin: 10px;
 }
@@ -129,21 +125,27 @@ html, body, #root, #app, #app>div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 10px
 }
 
-.Gallery-card > img {
+.Gallery img {
+  width: 100%;
   display: block;
+  border-radius: 1%;
 }
 
 .Gallery-card {
-  margin: 20px;
-  height: 400px;
-  width: 400px;
   background-color: #75a3bf;
-  box-shadow: 2px 2px 8px #000;
+  margin: 10px;
+  width: 16vw;
+  border-radius: 1%;
 }
 
 .Gallery-card:hover {
-  box-shadow: 0px 0px 0px black;
+  box-shadow: 2px 2px 8px #000;
 }
 
+#current-date {
+  text-align: center;
+  font-size: 2.5vw;
+}

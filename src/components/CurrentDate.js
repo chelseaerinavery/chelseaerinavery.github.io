@@ -3,7 +3,7 @@ import React from 'react';
 
 function CurrentDate() {
   return (
-    <div>
+    <div id="current-date">
       <p>Copyright {new Date().getFullYear()} Chelsea Avery</p>
     </div>
   );

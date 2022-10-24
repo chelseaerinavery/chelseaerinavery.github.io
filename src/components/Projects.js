@@ -8,9 +8,9 @@ function Projects() {
         return (
           <a className="Gallery-card" href={project.link} target="_blank" rel="noopener noreferrer">
             <picture>
-              <source type="image/webp" width="400px" height="400px" srcSet={project.webp} />
-              <source type="image/jpeg" width="400px" height="400px" srcSet={project.png} />
-              <img src={project.png} width="400px" height="400px" alt={project.title} />
+              <source type="image/webp" srcSet={project.webp} />
+              <source type="image/jpeg" srcSet={project.png} />
+              <img src={project.png} alt={project.title} />
             </picture>
           </a>
         );

@@ -8,9 +8,9 @@ function Gallery() {
         return (
           <span className="Gallery-card">
             <picture>
-              <source type="image/webp" width="400px" height="400px" srcSet={pic.webp} />
-              <source type="image/jpeg" width="400px" height="400px" srcSet={pic.png} />
-              <img src={pic.png} width="400px" height="400px" alt={pic.title} />
+              <source type="image/webp" srcSet={pic.webp} />
+              <source type="image/jpeg" srcSet={pic.png} />
+              <img src={pic.png} alt={pic.title} />
             </picture>
           </span>
         );
