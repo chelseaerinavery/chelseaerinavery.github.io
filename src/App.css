@@ -36,30 +36,27 @@
   height: 9vw;
 }
 
-.bio-background img {
-  max-inline-size: 100%;
-  block-size: auto;
-  object-fit:cover;
-  display: block;
+#bio-background-wrapper {
+  width: 100%
 }
 
-.bio-card p {
-  text-align: left;
-  color: #000;
+#bio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bio-background {
+  background-image: url("./assets/Bio/headshot.webp");
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
 }
 
 .bio-card {
-  position: fixed;
-  right: 16px;
-  top: 34%;
-  height: 400px;
-  width: 50%;
-  background-color: #F2F2F2;
-  opacity: 0.92;
-  padding: 30px;
-  border-radius:5px;
-  z-index: 1;
-  overflow: scroll;
+width: 100%; 
+padding: 2%;
+padding-top: 0%; 
+font-size:.8em;
 }
 
 .resume {
@@ -67,30 +64,6 @@
   text-align: left;
   padding-left: 4vw;
   padding-right: 4vw;
-}
-
-.resume-card {
-  padding: 4vw;
-  margin: 7vw;
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 2px 2px 8px #000;
-}
-
-.resume a {
-  text-decoration: none;
-  margin: 5vw;
-  color: #0460D9;
-}
-
-.resume a:hover {
-  color: #F29544;
-}
-
-.resume-card h1 {
-  color: #165873;
-  text-align: center;
-  font-size: 4vh;
 }
 
 #myname {
@@ -135,10 +108,12 @@
 }
 
 .Gallery-card {
-  background-color: #75a3bf;
-  margin: 10px;
-  width: 16vw;
+  background-color: white;
+  margin: 4%;
+  width: 35vw;
+  padding: 2%;
   border-radius: 1%;
+  font-size: .7em;
 }
 
 .Gallery-card:hover {
@@ -148,4 +123,44 @@
 #current-date {
   text-align: center;
   font-size: 2.5vw;
+}
+
+.caption {
+  font-weight:800;
+}
+
+@media screen and (min-width: 800px) {
+  #myname {
+    font-size: 5.5vw;
+  }
+
+  .Gallery-card {
+    background-color: white;
+    margin: 2%;
+    width: 16vw;
+    border-radius: 1%;
+    font-size: .9em;
+  }
+
+  .App-link img {
+    height: 5vw;
+  }
+
+  #bio-background-wrapper {
+    width: 50%
+  }
+
+  .bio-card {
+    width: 46%;
+    font-size:.95em;
+  }
+
+   .bio-background {
+    height: 100vh;
+  }
+
+  #current-date {
+    font-size: .8em;
+  }
+  
 }

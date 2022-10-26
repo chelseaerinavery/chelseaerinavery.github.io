@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 // import chelseaLogo from './assets/chelseaLogo.png';
 import './App.css';
-import Social from './components/Social';
-import CurrentDate from './components/CurrentDate';
+import Footer from './components/Footer';
 import About from './components/About';
 import Projects from './components/Projects';
 // import CodingCV from './components/CodingCV';
@@ -56,12 +55,7 @@ function App() {
 
       {currentPage === 'gallery' && <Gallery />}
 
-      {currentPage === 'home' && (
-        <footer>
-          <Social />
-          <CurrentDate />
-        </footer>
-      )}
+      {currentPage === 'home' && <Footer />}
     </div>
   );
 }

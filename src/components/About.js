@@ -1,21 +1,17 @@
 import React from 'react';
-import Headshot from '../assets/Bio/headshot.webp';
 
 function About() {
   return (
-    <div>
-      <div className="bio-background">
-        <img src={Headshot} alt="My Headshot" />
+    <div id="bio-container">
+      <div id="bio-background-wrapper">
+        <section className="bio-background" />
       </div>
-      <div className="bio-card">
+      <section className="bio-card">
         <p>
-          {/* My name is Chelsea Avery and you will find me pictured here with one of many loves of my
-          life: Sailor Jupiter the samoyed. */}
           I am a self-starting, full-stack developer hailing from Boulder, CO. I grew up in Boulder
           and have since returned after many years in Denver, Chicago, and Seattle wherein I
           completed graduate school at Northwestern University and worked as a Speech-Language
-          Pathologist specializing in neurorehabilitation. Pictured here with my beloved floof -
-          Sailor Jupiter the Samoyed.
+          Pathologist specializing in neurorehabilitation.
         </p>
         <p>
           I have studied and worked in several fields, but my favorite work has always been during
@@ -42,7 +38,7 @@ function About() {
             chelseaavery.js@gmail.com
           </a>
         </p>
-      </div>
+      </section>
     </div>
   );
 }
