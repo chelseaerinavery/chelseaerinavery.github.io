@@ -5,10 +5,10 @@ import Footer from './Footer';
 function Gallery() {
   return (
     <>
-      <div className="Gallery">
+      <div className="gallery">
         {galleryArray.map((pic) => {
           return (
-            <span className="Gallery-card">
+            <span className="gallery-card">
               <picture>
                 <source type="image/webp" srcSet={pic.webp} />
                 <source type="image/jpeg" srcSet={pic.png} />

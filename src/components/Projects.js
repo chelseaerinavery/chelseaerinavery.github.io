@@ -5,10 +5,10 @@ import Footer from './Footer';
 function Projects() {
   return (
     <>
-      <div className="Gallery">
+      <div className="projects">
         {projectsArray.map((project) => {
           return (
-            <div className="Gallery-card">
+            <div className="projects-card">
               <a
                 title={project.description}
                 href={project.link}
@@ -19,10 +19,10 @@ function Projects() {
                   <source type="image/jpeg" srcSet={project.png} />
                   <img src={project.png} alt={project.title} />
                 </picture>
+                <p>{project.description}</p>
+                <span className="caption">Technologies:</span>
+                <p>{project.technologies}</p>
               </a>
-              <p>{project.description}</p>
-              <span className="caption">Technologies:</span>
-              <p>{project.technologies}</p>
             </div>
           );
         })}

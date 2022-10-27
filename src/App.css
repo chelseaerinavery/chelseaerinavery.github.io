@@ -1,38 +1,22 @@
-.App {
+.app {
   font-family: 'Raleway', sans-serif;
-  /* 'Stick No Bills', sans-serif; */
-  /* font-family: 'Oswald', sans-serif; */
 }
 
-.App-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  position: relative;
-}
-
-.App-header img {
-  height: 35vmax;
-  margin: 18px;
-}
-
-.Socials {
+.socials {
   margin: 15px;
   text-align: center;
 }
 
-.App-link {
+.app-link {
   color: #F29544;
   padding: 10px;
 }
 
-.App-link:hover {
+.app-link:hover {
   filter: invert(13%) sepia(24%) saturate(5135%) hue-rotate(265deg) brightness(105%) contrast(135%);
 }
 
-.App-link img {
+.app-link img {
   height: 9vw;
 }
 
@@ -59,13 +43,6 @@ padding-top: 0%;
 font-size:.8em;
 }
 
-.resume {
-  font-family: 'Raleway', sans-serif;
-  text-align: left;
-  padding-left: 4vw;
-  padding-right: 4vw;
-}
-
 #myname {
   color: 
   #274001;
@@ -75,7 +52,7 @@ font-size:.8em;
   margin: 10px;
 }
 
-.Navigation {
+.navigation {
   display: flex;
   justify-content: space-evenly;
   font-family: 'Raleway', sans-serif;
@@ -85,29 +62,51 @@ font-size:.8em;
   border-width: thin;
 }
 
-.Link {
+.link {
   cursor: pointer;
   margin: 5px;
 }
 
-.Link:hover {
+.link:hover {
   color: #467302;
 }
 
-.Gallery {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 10px
 }
 
-.Gallery img {
+.gallery img {
   width: 100%;
   display: block;
   border-radius: 1%;
 }
 
-.Gallery-card {
+.gallery-card {
+  background-color: white;
+  margin: 4%;
+  width: 35vw;
+  padding: 2%;
+  border-radius: 1%;
+  box-shadow: .2px .2px 6px #aca4a4
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px
+}
+
+.projects img {
+  width: 100%;
+  display: block;
+  border-radius: 1%;
+}
+
+.projects-card {
   background-color: white;
   margin: 4%;
   width: 35vw;
@@ -116,8 +115,13 @@ font-size:.8em;
   font-size: .7em;
 }
 
-.Gallery-card:hover {
-  box-shadow: 2px 2px 8px #000;
+.projects-card * {
+  text-decoration: none;
+  color: black;
+}
+
+.projects-card:hover {
+  box-shadow: 2px 2px 6px #000;
 }
 
 #current-date {
@@ -134,7 +138,7 @@ font-size:.8em;
     font-size: 5.5vw;
   }
 
-  .Gallery-card {
+  .projects-card {
     background-color: white;
     margin: 2%;
     width: 16vw;
@@ -142,7 +146,14 @@ font-size:.8em;
     font-size: .9em;
   }
 
-  .App-link img {
+  .gallery-card {
+    background-color: white;
+    margin: 2%;
+    width: 16vw;
+    border-radius: 1%;
+  }
+
+  .app-link img {
     height: 5vw;
   }
 
@@ -155,7 +166,7 @@ font-size:.8em;
     font-size:.95em;
   }
 
-   .bio-background {
+  .bio-background {
     height: 100vh;
   }
 

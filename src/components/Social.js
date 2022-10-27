@@ -6,27 +6,27 @@ import '../App.css';
 
 function Social() {
   return (
-    <div className="Socials">
+    <div className="socials">
       <a
-        className="App-link"
+        className="app-link"
         href="mailto:chelseaavery.js@gmail.com"
         target="_blank"
         rel="noopener noreferrer">
-        <img height="80" src={emailLogo} className="App-github" alt="my github" />
+        <img height="80" src={emailLogo} alt="my github" />
       </a>
       <a
-        className="App-link"
+        className="app-link"
         href="https://github.com/chelseaerinavery"
         target="_blank"
         rel="noopener noreferrer">
-        <img height="80" src={githubLogo} className="App-github" alt="my github" />
+        <img height="80" src={githubLogo} alt="my github" />
       </a>
       <a
-        className="App-link"
+        className="app-link"
         href="https://www.linkedin.com/in/chelseaavery/"
         target="_blank"
         rel="noopener noreferrer">
-        <img height="80" src={linkedinLogo} className="App-linkedin" alt="my linkedin" />
+        <img height="80" src={linkedinLogo} alt="my linkedin" />
       </a>
     </div>
   );

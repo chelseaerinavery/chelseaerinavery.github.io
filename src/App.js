@@ -24,28 +24,22 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <header>
         <h1 id="myname">Chelsea Avery</h1>
-        <div className="Navigation">
-          <span role="link" className="Link" onClick={() => clickPage('home')}>
+        <div className="navigation">
+          <span role="link" className="link" onClick={() => clickPage('home')}>
             Home
           </span>
-          <span role="link" className="Link" onClick={() => clickPage('about')}>
+          <span role="link" className="link" onClick={() => clickPage('about')}>
             About
           </span>
-          <span role="link" className="Link" onClick={() => clickPage('projects')}>
+          <span role="link" className="link" onClick={() => clickPage('projects')}>
             Projects
           </span>
-          {/* <span role="link" className="Link" onClick={() => clickPage('codingcv')}>
-          Resume
-        </span> */}
-          <span role="link" className="Link" onClick={() => clickPage('gallery')}>
+          <span role="link" className="link" onClick={() => clickPage('gallery')}>
             Artwork
           </span>
-          {/* <span role="link" className="Link" onClick={() => clickPage('slpcv')}>
-          SLP
-        </span> */}
         </div>
       </header>
 
