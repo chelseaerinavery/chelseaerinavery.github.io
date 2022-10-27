@@ -108,6 +108,7 @@ font-size:.8em;
 
 .projects-card {
   background-color: white;
+  cursor: pointer;
   margin: 4%;
   width: 35vw;
   padding: 2%;
