@@ -34,7 +34,7 @@ const projectsArray = [
     description:
       'Full stack application featuring full CRUD API endpoints, implementing Node with MySQL and Express middleware, React, and FontAwesome.',
     technologies: 'React.js, Node.js, Express.js, MySQL, Rest API, FontAwesome',
-    link: `https://todofe.herokuapp.com/`
+    link: `https://todofe.onrender.com`
   },
   {
     title: 'Feed My Vibe',
