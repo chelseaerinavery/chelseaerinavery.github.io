@@ -17,10 +17,10 @@ function About() {
           : Creative Technology & Design (CTD) program. I greatly enjoyed my time learning about
           design principles, computer science, and web development in this program and am very
           excited to have returned to this realm again now. Prior to my career as a software
-          engineer, I obtained my master's degree in speech, language, & learning from Northwestern
-          University and worked as an acute care Speech-Language Pathologist specializing in
-          neurorehabilitation. I carry over a deep understanding of and interest in language
-          (including syntax) and networks (neural vs. computer).
+          engineer, I obtained my master&apos;s degree in speech, language, & learning from
+          Northwestern University and worked as an acute care Speech-Language Pathologist
+          specializing in neurorehabilitation. I carry over a deep understanding of and interest in
+          language (including syntax) and networks (neural vs. computer).
         </p>
 
         <p>
