@@ -7,6 +7,8 @@ import ToDoPNG from '../assets/Projects/todo.png';
 import fmvPNG from '../assets/Projects/fmv.jpg';
 import Epc from '../assets/Projects/epc.webp';
 import EpcPNG from '../assets/Projects/epc.png';
+import Tictactoe from '../assets/Projects/tictactoe.webp';
+import TictactoePNG from '../assets/Projects/tictactoe.png';
 
 const projectsArray = [
   {
@@ -52,6 +54,15 @@ const projectsArray = [
       'A simple static website for a counseling center. Hosted and deployed with Netlify.',
     technologies: 'HTML, CSS, HTML5 UP',
     link: `https://golden-dasik-bf6527.netlify.app/`
+  },
+  {
+    title: 'Tic-Tac-Toe',
+    png: TictactoePNG,
+    webp: Tictactoe,
+    description:
+      'A lightweight tic-tac-toe game built using the tutorial from React documentation, re-organized, re-styled, and converted from class to functional components using React hooks',
+    technologies: 'React.js, CSS',
+    link: `https://www.chelsea-avery.com/tictactoe/`
   }
 ];
 
