@@ -1,10 +1,12 @@
-import Calculator from '../assets/projects/calculator.webp';
-import Weather from '../assets/projects/weather.webp';
-import ToDo from '../assets/projects/todo.webp';
-import CalculatorPNG from '../assets/projects/calculator.png';
-import WeatherPNG from '../assets/projects/weather.png';
-import ToDoPNG from '../assets/projects/todo.png';
-import fmvPNG from '../assets/projects/fmv.jpg';
+import Calculator from '../assets/Projects/calculator.webp';
+import Weather from '../assets/Projects/weather.webp';
+import ToDo from '../assets/Projects/todo.webp';
+import CalculatorPNG from '../assets/Projects/calculator.png';
+import WeatherPNG from '../assets/Projects/weather.png';
+import ToDoPNG from '../assets/Projects/todo.png';
+import fmvPNG from '../assets/Projects/fmv.jpg';
+import Epc from '../assets/Projects/epc.webp';
+import EpcPNG from '../assets/Projects/epc.png';
 
 const projectsArray = [
   {
@@ -41,6 +43,15 @@ const projectsArray = [
       'Feed My Vibe utilizes GPT-3: a powerful AI model created by OpenAI. Here, AI generates recipes based on your mood input using a prompt sent through Rest API',
     technologies: 'React.js, CSS',
     link: `https://feedmyvibe.herokuapp.com/`
+  },
+  {
+    title: 'EPC',
+    png: EpcPNG,
+    webp: Epc,
+    description:
+      'A simple static website for a counseling center. Hosted and deployed with Netlify.',
+    technologies: 'HTML, CSS, HTML5 UP',
+    link: `https://golden-dasik-bf6527.netlify.app/`
   }
 ];
 

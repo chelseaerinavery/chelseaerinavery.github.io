@@ -1,19 +1,11 @@
 import React, { useEffect, useState } from 'react';
-// import chelseaLogo from './assets/chelseaLogo.png';
 import './App.css';
 import Footer from './components/Footer';
 import About from './components/About';
 import Projects from './components/Projects';
-// import CodingCV from './components/CodingCV';
-// import SLPCV from './components/SLPCV';
 import Gallery from './components/Gallery';
 
 function App() {
-  // const [home, setHome] = useState(true)
-  // const [about, setAbout] = useState(false)
-  // const [codingcv, setCodingCV] = useState(false)
-  // const [slpcv, setSLPCV] = useState(false)
-  // const [gallery, setGallery] = useState(false)
   const [currentPage, setCurrentPage] = useState('home');
 
   // setting to refresh current page instead of returning home.
