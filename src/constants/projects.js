@@ -62,7 +62,7 @@ const projectsArray = [
     description:
       'A lightweight tic-tac-toe game built using the tutorial from React documentation, re-organized, re-styled, and converted from class to functional components using React hooks',
     technologies: 'React.js, CSS',
-    link: `https://www.chelsea-avery.com/tictactoe/`
+    link: `https://www.chelsea-avery.com/tic-tac-toe/`
   }
 ];
 
