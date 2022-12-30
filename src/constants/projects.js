@@ -60,7 +60,7 @@ const projectsArray = [
     png: TictactoePNG,
     webp: Tictactoe,
     description:
-      'A lightweight tic-tac-toe game built using the tutorial from React documentation, re-organized, re-styled, and converted from class to functional components using React hooks',
+      'A lightweight tic-tac-toe game built using the tutorial from React documentation, re-organized, re-styled, and converted from class to functional components using React Hooks.',
     technologies: 'React.js, CSS',
     link: `https://www.chelsea-avery.com/tic-tac-toe/`
   }
