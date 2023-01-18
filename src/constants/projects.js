@@ -18,7 +18,8 @@ const projectsArray = [
     description:
       'A simple calculator application built with HTML/CSS/JS for executing simple calculations.',
     technologies: 'Vanilla JS, CSS, HTML5',
-    link: `https://www.chelsea-avery.com/calculator/`
+    link: `https://www.chelsea-avery.com/calculator/`,
+    repo: 'https://github.com/chelseaerinavery/calculator'
   },
   {
     title: 'Weather',
@@ -27,7 +28,8 @@ const projectsArray = [
     description:
       'React application integrating OpenWeather Map API endpoints. User can search by city or zip code.',
     technologies: 'React.js, CSS',
-    link: `https://www.chelsea-avery.com/weather/`
+    link: `https://www.chelsea-avery.com/weather/`,
+    repo: 'https://github.com/chelseaerinavery/weather'
   },
   {
     title: 'To-Do',
@@ -36,7 +38,8 @@ const projectsArray = [
     description:
       'Full stack application featuring full CRUD API endpoints, implementing Node with MySQL and Express middleware, React, and FontAwesome.',
     technologies: 'React.js, Node.js, Express.js, MySQL, Rest API, FontAwesome',
-    link: `https://todofe.onrender.com`
+    link: `https://todofe.onrender.com`,
+    repo: 'https://github.com/chelseaerinavery/todo_frontend'
   },
   {
     title: 'Feed My Vibe',
@@ -44,14 +47,14 @@ const projectsArray = [
     description:
       'Feed My Vibe utilizes GPT-3: a powerful AI model created by OpenAI. Here, AI generates recipes based on your mood input using a prompt sent through Rest API',
     technologies: 'React.js, CSS',
-    link: `https://feedmyvibe.herokuapp.com/`
+    link: `https://feedmyvibe.herokuapp.com/`,
+    repo: 'https://github.com/chelseaerinavery/feedmyvibe'
   },
   {
     title: 'EPC',
     png: EpcPNG,
     webp: Epc,
-    description:
-      'A simple static website for a counseling center. Hosted and deployed with Netlify.',
+    description: 'A simple static website for a counseling center.',
     technologies: 'HTML, CSS, HTML5 UP',
     link: `https://golden-dasik-bf6527.netlify.app/`
   },
@@ -62,7 +65,8 @@ const projectsArray = [
     description:
       'A lightweight tic-tac-toe game built using the tutorial from React documentation, re-organized, re-styled, and converted from class to functional components using React Hooks.',
     technologies: 'React.js, CSS',
-    link: `https://www.chelsea-avery.com/tic-tac-toe/`
+    link: `https://www.chelsea-avery.com/tic-tac-toe/`,
+    repo: 'https://github.com/chelseaerinavery/tic-tac-toe'
   }
 ];
 

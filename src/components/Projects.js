@@ -22,6 +22,16 @@ function Projects() {
                 <p>{project.description}</p>
                 <span className="caption">Technologies:</span>
                 <p>{project.technologies}</p>
+                <button type="button">
+                  <a
+                    title={project.description}
+                    href={project.repo}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    {' '}
+                    Github Repo
+                  </a>
+                </button>
               </a>
             </div>
           );

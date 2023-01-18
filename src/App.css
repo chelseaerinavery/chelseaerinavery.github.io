@@ -107,13 +107,15 @@ font-size:.8em;
 }
 
 .projects-card {
+  display: flex;
   background-color: white;
   cursor: pointer;
   margin: 4%;
   width: 35vw;
   padding: 2%;
   border-radius: 1%;
-  font-size: .7em;
+  font-size: 1em;
+
 }
 
 .projects-card * {
@@ -123,6 +125,25 @@ font-size:.8em;
 
 .projects-card:hover {
   box-shadow: 0px;
+}
+
+.projects-card button {
+  display: flex;
+  background-color: #f4edf7;
+  border: 0px;
+  padding: 4%;
+  border: solid 1px #420059;
+  border-radius: 2px 2px;
+  box-shadow: 1px 1px 1px grey;
+  cursor: pointer;
+}
+
+.projects-card button:hover {
+  background-color: #f244b94f;
+}
+
+.projects-card button a {
+  color: #420059;
 }
 
 #current-date {
@@ -172,6 +193,7 @@ font-size:.8em;
   .projects-card {
     background-color: white;
     margin: 2%;
+    height: 55vh;
     width: 16vw;
     border-radius: 1%;
     font-size: .9em;
