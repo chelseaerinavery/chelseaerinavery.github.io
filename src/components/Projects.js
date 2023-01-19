@@ -19,19 +19,25 @@ function Projects() {
                   <source type="image/jpeg" srcSet={project.png} />
                   <img src={project.png} alt={project.title} />
                 </picture>
-                <p>{project.description}</p>
-                <span className="caption">Technologies:</span>
-                <p>{project.technologies}</p>
-                <button type="button">
-                  <a
-                    title={project.description}
-                    href={project.repo}
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    {' '}
-                    Github Repo
-                  </a>
-                </button>
+                <div className="project-card-section">
+                  <p>{project.description}</p>
+                </div>
+                <div className="project-card-section">
+                  <span className="caption">Technologies:</span>
+                  <p>{project.technologies}</p>
+                </div>
+                <div id="gh-button-container" className="project-card-section">
+                  <button type="button">
+                    <a
+                      title={project.description}
+                      href={project.repo}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {' '}
+                      Github Repo
+                    </a>
+                  </button>
+                </div>
               </a>
             </div>
           );
