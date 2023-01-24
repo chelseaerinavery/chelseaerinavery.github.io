@@ -97,7 +97,6 @@ font-size:.8em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 10px
 }
 
 .projects img {
@@ -107,19 +106,24 @@ font-size:.8em;
 }
 
 .projects-card {
-  display: flex;
+  /* display: flex;
   background-color: white;
   cursor: pointer;
   margin: 4%;
   width: 35vw;
   padding: 2%;
   border-radius: 1%;
-  font-size: 1em;
-
+  font-size: 1em; */
+  background-color: white;
+  width: 35vw;
+  padding: 2%;
+  margin: 4%;
+  border-radius: 1%;
 }
 
 .project-card-section {
-  height: 19.5%
+  /* display:grid;
+  grid-template-rows: minmax(140px, auto); */
 }
 
 .projects-card * {
@@ -132,22 +136,18 @@ font-size:.8em;
 }
 
 .projects-card button {
-  display: flex;
   background-color: #f4edf7;
-  border: 0px;
   padding: 4%;
   border: solid 1px #420059;
   border-radius: 2px 2px;
   box-shadow: 1px 1px 1px grey;
-  cursor: pointer;
-  margin-bottom: 8%;
 }
 
 #gh-button-container {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 12%;
+  height: 40px; */
 }
 
 .projects-card button:hover {

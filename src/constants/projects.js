@@ -47,7 +47,7 @@ const projectsArray = [
     description:
       'Feed My Vibe utilizes GPT-3: a powerful AI model created by OpenAI. Here, AI generates recipes based on your mood input using a prompt sent through Rest API',
     technologies: 'React.js, CSS',
-    link: `https://feedmyvibe.herokuapp.com/`,
+    link: `https://feedmyvibe.onrender.com`,
     repo: 'https://github.com/chelseaerinavery/feedmyvibe'
   },
   {
