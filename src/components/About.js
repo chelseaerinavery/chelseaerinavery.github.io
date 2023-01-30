@@ -24,7 +24,7 @@ function About() {
           engineer, I obtained my master&apos;s degree in speech, language, & learning from
           Northwestern University and worked as an acute care Speech-Language Pathologist
           specializing in neurorehabilitation. I carry over a deep understanding of and interest in
-          language (including syntax) and networks (neural vs. computer).{' '}
+          language (including syntax) and neural networks (both human and computer).{' '}
           <a
             rel="noreferrer"
             target="_blank"
