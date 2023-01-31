@@ -23,8 +23,8 @@ function About() {
           excited to have returned to this realm again now. Prior to my career as a software
           engineer, I obtained my master&apos;s degree in speech, language, & learning from
           Northwestern University and worked as an acute care Speech-Language Pathologist
-          specializing in neurorehabilitation. I carry over a deep understanding of and interest in
-          language (including syntax) and neural networks (both human and computer).{' '}
+          specializing in neurorehabilitation. I carry over a love for languages (including syntax)
+          and neural networks (both human and computer).{' '}
           <a
             rel="noreferrer"
             target="_blank"
