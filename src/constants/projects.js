@@ -9,6 +9,8 @@ import Epc from '../assets/Projects/epc.webp';
 import EpcPNG from '../assets/Projects/epc.png';
 import Tictactoe from '../assets/Projects/tictactoe.webp';
 import TictactoePNG from '../assets/Projects/tictactoe.png';
+import PixelPlex from '../assets/Projects/pixelplex.webp';
+import PixelPlexJPG from '../assets/Projects/pixelplex.jpg';
 
 const projectsArray = [
   {
@@ -67,6 +69,15 @@ const projectsArray = [
     technologies: 'React.js, CSS',
     link: `https://www.chelsea-avery.com/tic-tac-toe/`,
     repo: 'https://github.com/chelseaerinavery/tic-tac-toe'
+  },
+  {
+    title: 'PixelPlex',
+    png: PixelPlexJPG,
+    webp: PixelPlex,
+    description: 'A simple static site for a local gaming shop / community center.',
+    technologies: 'HTML, CSS',
+    link: `https://guileless-peony-6b3d6b.netlify.app/`,
+    repo: 'https://github.com/chelseaerinavery/pixelplex'
   }
 ];
 
