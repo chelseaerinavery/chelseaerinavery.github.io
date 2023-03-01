@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c9f6b53c.chunk.css",
-    "main.js": "/static/js/main.fb369006.chunk.js",
-    "main.js.map": "/static/js/main.fb369006.chunk.js.map",
+    "main.js": "/static/js/main.5baea3df.chunk.js",
+    "main.js.map": "/static/js/main.5baea3df.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ddd1c5bb.js",
     "runtime-main.js.map": "/static/js/runtime-main.ddd1c5bb.js.map",
     "static/js/2.da5e7f89.chunk.js": "/static/js/2.da5e7f89.chunk.js",
@@ -45,6 +45,8 @@
     "static/media/holyghost.a0badcbf.webp": "/static/media/holyghost.a0badcbf.webp",
     "static/media/kestrel.0520bee1.webp": "/static/media/kestrel.0520bee1.webp",
     "static/media/kestrel.2945c6b5.png": "/static/media/kestrel.2945c6b5.png",
+    "static/media/pixelplex.b931c415.webp": "/static/media/pixelplex.b931c415.webp",
+    "static/media/pixelplex.bc9498fc.jpg": "/static/media/pixelplex.bc9498fc.jpg",
     "static/media/scrubjay.b6a3187e.png": "/static/media/scrubjay.b6a3187e.png",
     "static/media/scrubjay.ef183515.webp": "/static/media/scrubjay.ef183515.webp",
     "static/media/succulent1.4ee0ef8e.webp": "/static/media/succulent1.4ee0ef8e.webp",
@@ -68,6 +70,6 @@
     "static/js/runtime-main.ddd1c5bb.js",
     "static/js/2.da5e7f89.chunk.js",
     "static/css/main.c9f6b53c.chunk.css",
-    "static/js/main.fb369006.chunk.js"
+    "static/js/main.5baea3df.chunk.js"
   ]
 }
